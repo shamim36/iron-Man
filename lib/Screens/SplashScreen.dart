@@ -1,6 +1,6 @@
 import 'package:animated_splash_screen/animated_splash_screen.dart';
 import 'package:flutter/material.dart';
-import 'package:ironman01/Screens/HomeScreen.dart';
+import 'package:ironman01/Screens/LoginScreen.dart';
 import 'package:page_transition/page_transition.dart';
 
 class SplashScreen extends StatelessWidget {
@@ -42,7 +42,7 @@ class SplashScreen extends StatelessWidget {
       ),
       splashTransition: SplashTransition.slideTransition,
       pageTransitionType: PageTransitionType.fade,
-      nextScreen: HomeScreen(),
+      nextScreen: const LoginScreen(),
     );
   }
 }
